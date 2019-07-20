@@ -1,0 +1,188 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shopping Cart FORM</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="styleme.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body id="main_body" class=" no_guidelines">
+	<div id="form_container" class="">
+
+		<!-- <h1><a>Untitled Form</a></h1> -->
+		<form method="post" data-highlightcolor="#FFF7C0" action="">
+			<div class="form_description">
+				<h2>Shopping Cart Form</h2>
+				<h3>Personal Information</h3>
+
+				<label class="description" for="element_1">FIRST NAME <span id="required_1"
+						class="required">*</span></label>
+				<div>
+					<input id="element_1" name="element_1" class="element text medium" type="text" value="" pattern="[a-zA-Z]+">
+				</div>
+				<p class="error">This field is required. Please enter a value.</p>
+				</li>
+				<li id="li_2">
+					<label class="description" for="element_2">MIDDLE NAME </label>
+					<div>
+						<input id="element_2" name="element_2" class="element text medium" type="text" value="">
+
+					</div>
+				</li>
+				<li id="li_3" class="error">
+					<label class="description" for="element_3">LAST NAME <span id="required_3"
+							class="required">*</span></label>
+					<div>
+						<input id="element_3" name="element_3" class="element text medium" type="text" value="" pattern="[a-zA-Z]+">
+
+					</div>
+					<p class="error">This field is required. Please enter a value.</p>
+				</li>
+				<li id="li_4" class="error">
+					<label class="description" for="element_4">DATE OF BIRTH <span id="required_4"
+							class="required">*</span></label>
+					<div>
+						<input id="element_4" name="element_4" class="element text medium" type="Date" value="" pattern="/^\d{2}\/\d{2}\/\d{4}$/">
+
+					</div>
+					<p class="error">This field is required. Please enter a value.</p>
+
+			</div>
+			</li>
+			<li id="li_7" class="error">
+				<label class="description" for="element_7">EMAIL ADDRESS <span id="required_7"
+						class="required">*</span></label>
+				<div>
+					<input id="element_7" name="element_7" class="element text medium" type="text" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+				</div>
+				<p class="error">This field is required. Please enter a value.</p>
+
+			</li>
+
+			<li id="li_23" class="phone">
+				<fieldset>
+					<legend style="display: none">PRIMARY PHONE NUMBER</legend>
+					<span class="description">PRIMARY PHONE NUMBER </span>
+					<span class="phone_1">
+						<input id="element_23_1" name="element_23_1" class="element text" size="3" maxlength="3"
+							value="" type="text" pattern="[0-9]{3}"> -
+						<label for="element_23_1">###</label>
+					</span>
+					<span class="phone_2">
+						<input id="element_23_2" name="element_23_2" class="element text" size="3" maxlength="3"
+							value="" type="text" pattern="[0-9]{3}" > -
+						<label for="element_23_2">###</label>
+					</span>
+					<span class="phone_3">
+						<input id="element_23_3" name="element_23_3" class="element text" size="4" maxlength="4"
+							value="" type="text" pattern="[0-9]{4}" >
+						<label for="element_23_3">####</label>
+					</span>
+				</fieldset>
+
+			<li id="li_22" class="error">
+				<label class="description" for="element_22">SOCIAL SECURITY NUMBER <span id="required_22"
+						class="required">*</span></label>
+				<div>
+					<input id="element_22" name="element_22" class="element text medium" type="Number" value="">
+
+				</div>
+				<p class="error">This field is required. Please enter a value.</p>
+			</li>
+			<li id="li_13" class="multiple_choice">
+				<span class="description">ARE YOU A U.S. CITIZEN? </span>
+				<div>
+					<fieldset>
+						<legend style="display: none">ARE YOU A U.S. CITIZEN?</legend>
+						<span><input id="element_13_1" name="element_13" class="element radio" type="radio" value="1">
+							<label class="choice" for="element_13_1">YES</label>
+						</span>
+						<span><input id="element_13_2" name="element_13" class="element radio" type="radio" value="2" checked>
+							<label class="choice" for="element_13_2">NO</label>
+						</span>
+
+					</fieldset>
+				</div>
+			</li>
+			<li id="li_19" class="section_break">
+				<h3>Billing Address</h3>
+				<p></p>
+			</li>
+			<li id="li_5" class="error">
+				<label class="description" for="element_5">RESIDENTIAL ADDRESS (No PO Boxes or CMRA) <span
+						id="required_5" class="required">*</span></label>
+				<div>
+					<input id="element_5" name="element_5" class="element text medium" type="text" value="">
+
+				</div>
+				<p class="error">This field is required. Please enter a value.</p>
+			</li>
+			<li id="li_6">
+				<label class="description" for="element_6">SUITE/APT. # (if applicable) </label>
+				<div>
+					<input id="element_6" name="element_6" class="element text medium" type="text" value="">
+
+
+			</li>
+
+			<li id="li_19a" class="section_break">
+				<h3>Shipping Address</h3>
+				<p></p>
+			</li>
+			<li id="li_5a" class="error">
+				<label class="description" for="element_5">RESIDENTIAL ADDRESS (No PO Boxes or CMRA) <span
+						id="required_5a" class="required">*</span></label>
+				<div>
+					<input id="element_5a" name="element_5" class="element text medium" type="text" value="">
+
+				</div>
+				<p class="error">This field is required. Please enter a value.</p>
+			</li>
+			<li id="li_6a">
+				<label class="description" for="element_6">SUITE/APT. # (if applicable) </label>
+				<div>
+					<input id="element_6a" name="element_6" class="element text medium" type="text" value="">
+
+
+			</li>
+
+
+			<li id="li_21" class="section_break">
+				<h3>Shopping Info</h3>
+				<p>The total value of you purchase is: $1000.00</p>
+			</li>
+			<li id="li_30" class="checkboxes">
+				<span class="description"> </span>
+				<div>
+					<fieldset>
+						<legend style="display: none"></legend>
+						<span><input id="element_30_2" name="element_30_2" class="element checkbox" type="checkbox"
+								value="1">
+							<label class="choice" for="element_30_2">I agree with the shopping info above.</label>
+						</span>
+
+					</fieldset>
+				</div>
+			</li>
+
+
+
+			<li id="li_buttons" class="buttons">
+				<input type="hidden" name="form_id" value="10309">
+
+				<input type="hidden" name="submit_form" value="1">
+				<input type="hidden" name="page_number" value="1">
+				<input id="submit_form" class="button_text" type="submit" name="submit_form" value="Submit">
+			</li>
+			</ul>
+		</form>
+	</div>
+
+
+</body>
+
+</html>

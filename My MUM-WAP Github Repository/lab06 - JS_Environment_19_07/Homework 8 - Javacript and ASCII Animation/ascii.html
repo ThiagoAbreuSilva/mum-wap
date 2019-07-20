@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Victor Sebastian Valencia Correa">
+    <link href="css/ascii.css" type="text/css" rel="stylesheet">
+		<script src="js/animation.js"></script>
+    <script src="js/ascii.js"></script>
+		<title>ASCIImation</title>
+	</head>
+	<body>
+    <div class="container">
+      <h1>CS472: ASCII Animation Viewer</h1>
+      <textarea id="textbox" rows="20" cols="80"></textarea>
+			<div class="controls">
+				<fieldset>
+					<legend>Play Controls:</legend>
+					<button id="start">Start</button>
+					<button id="stop" disabled>Stop</button>
+				</fieldset>
+				<fieldset>
+					<legend>Animation:</legend>
+					<select id="animation" name="animation">
+						<option value="blank">Blank</option>
+						<option value="exercise">Exercise</option>
+						<option value="juggler">Juggler</option>
+						<option value="bike">Bike</option>
+						<option value="dive">Dive</option>
+						<option value="custom">Custom</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Size:</legend>
+					<select id="size" name="size">
+						<option value="7pt">Tiny</option>
+						<option value="10pt">Small</option>
+						<option value="12pt" selected>Medium</option>
+						<option value="16pt">Large</option>
+						<option value="24pt">Extra Large</option>
+						<option value="32pt">XXL</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Speed:</legend>
+					<label><input id="turbo" type="checkbox" name="turbo"/>Turbo</label>
+				</fieldset>
+			</div>
+    </div>
+    <div id="verifier">
+      <a href="http://validator.w3.org/check/referer"><img src="http://mumstudents.org/cs472/2018-12-BL/Homework/2/resources/w3c-html.png" alt="Valid HTML5" /></a> <br />
+      <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://mumstudents.org/cs472/2018-12-BL/Homework/2/resources/w3c-css.png" alt="Valid CSS" /></a> <br />
+			<a href="http://www.jslint.com/"><img src="http://mumstudents.org/jshint/jshint-small.png"></a>
+    </div>
+  </body>
+</html>
